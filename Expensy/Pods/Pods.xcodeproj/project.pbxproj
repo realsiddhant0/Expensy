@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0916BAC92588343049BD30AE6FD3AF93 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AE1B07C40D73BBE61689434C5249E79 /* Ionicons.ttf */; };
+		1DFA0C5156D249E7D6EFDC043AA101BC /* SwiftUIFontIcon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0867C2197B0C7B1624162F932D166 /* SwiftUIFontIcon-dummy.m */; };
+		2DEF5B65DCA8F7DD8A6AF647A8BCE622 /* FontAwesome5Free-Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2372919E15DE02DB6B714BF06B38171 /* FontAwesome5Free-Solid.ttf */; };
+		48E06590F28966DB83335CB66A5010CA /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FFFF84EFF4B7193544649E10FACDD /* IonIcons.swift */; };
+		61943E7AEE575D543ACCCEFD8124676A /* SwiftUIFontIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FCBF92CC375C8B32003928DBE0A38 /* SwiftUIFontIcon.swift */; };
+		629781E136E3DB94EAFD9D86E86CFAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67C7090DEFDCA5936D9DF6B8BFFE781C /* Pods-Expensy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C65B96A9A672A21ED8E295A94F7A86FE /* Pods-Expensy-dummy.m */; };
+		6813670050ACC60B41472B85CEA79882 /* SwiftUIFontIcon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA7BA8B6A03CC177208375601D62440 /* SwiftUIFontIcon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7424EF6E56211739C8D155ADA7531789 /* Pods-Expensy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C5B3A48CC80C35CCC1D513A258DF3C /* Pods-Expensy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C16A9F494DBB596A85E1120D346F484 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C576DC1AD1BF74C8A0CF90F838A886 /* FontAwesome.swift */; };
+		A1F9B50AEFAF102108AD4A6B0DF4D764 /* FontIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC52C5A2B8AD7D3BB26F2C577FBDE1 /* FontIconView.swift */; };
+		AFD0A80E8631A063E47284494D89C838 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF022D934465847CE318BAB2C9B7D /* MaterialIcons-Regular.ttf */; };
+		CBC798FB0C7BBD0D517B5BBC6BD6272F /* FontLoader.pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E602B80AECF796E86E967E117E0D780A /* FontLoader.pod.swift */; };
+		F0DA2C6C5A11250E1B802714EC8ACA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FF083B22870E07A2F19068A441CACA7D /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29EAAE1FE2A1ED99B5E31B21220A5C /* MaterialIcon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B98DDFBDF91EC95F6E4D411DD364C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461699BCEA51F63AD2788B1A69849D27;
+			remoteInfo = SwiftUIFontIcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AD5496BAC7CE4624F9F3440834C1BF /* Pods-Expensy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Expensy-frameworks.sh"; sourceTree = "<group>"; };
+		099BBFFF0C21160BED7F8728E208553C /* Pods-Expensy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Expensy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1052BBC59422FAB44886701652FCBB91 /* SwiftUIFontIcon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUIFontIcon.modulemap; sourceTree = "<group>"; };
+		1AE1B07C40D73BBE61689434C5249E79 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = Sources/SwiftUIFontIcon/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		1B70349414F6082A1088325B0683847A /* SwiftUIFontIcon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUIFontIcon-Info.plist"; sourceTree = "<group>"; };
+		2344C8506DF315873C36D342B576ED18 /* SwiftUIFontIcon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIFontIcon-prefix.pch"; sourceTree = "<group>"; };
+		32A0410BE5470F6C101EDEFFF6905A07 /* Pods-Expensy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Expensy.modulemap"; sourceTree = "<group>"; };
+		35AFF022D934465847CE318BAB2C9B7D /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "Sources/SwiftUIFontIcon/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		3DD6E406336DBD6DE024E5EB2C282DA0 /* SwiftUIFontIcon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIFontIcon.release.xcconfig; sourceTree = "<group>"; };
+		5BDC52C5A2B8AD7D3BB26F2C577FBDE1 /* FontIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIconView.swift; path = Sources/SwiftUIFontIcon/FontIconView.swift; sourceTree = "<group>"; };
+		65ED4D573A46200C9936C732B9D8FAEA /* SwiftUIFontIcon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftUIFontIcon; path = SwiftUIFontIcon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71222D27DB9C5ABDA802711D8CBEDCB7 /* Pods-Expensy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Expensy.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CA7BA8B6A03CC177208375601D62440 /* SwiftUIFontIcon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIFontIcon-umbrella.h"; sourceTree = "<group>"; };
+		98064CA1AC3FA0F1187104F20952694D /* SwiftUIFontIcon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIFontIcon.debug.xcconfig; sourceTree = "<group>"; };
+		99C576DC1AD1BF74C8A0CF90F838A886 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = Sources/SwiftUIFontIcon/FontCodes/FontAwesome.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA0867C2197B0C7B1624162F932D166 /* SwiftUIFontIcon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUIFontIcon-dummy.m"; sourceTree = "<group>"; };
+		A3C5B3A48CC80C35CCC1D513A258DF3C /* Pods-Expensy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Expensy-umbrella.h"; sourceTree = "<group>"; };
+		A4CED2E464897427EDEAE01919392278 /* Pods-Expensy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Expensy-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCE77D58C612245F71D9A26A28B8705D /* Pods-Expensy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Expensy"; path = Pods_Expensy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65B96A9A672A21ED8E295A94F7A86FE /* Pods-Expensy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Expensy-dummy.m"; sourceTree = "<group>"; };
+		CE6FCBF92CC375C8B32003928DBE0A38 /* SwiftUIFontIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIFontIcon.swift; path = Sources/SwiftUIFontIcon/SwiftUIFontIcon.swift; sourceTree = "<group>"; };
+		DB2FFFF84EFF4B7193544649E10FACDD /* IonIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IonIcons.swift; path = Sources/SwiftUIFontIcon/FontCodes/IonIcons.swift; sourceTree = "<group>"; };
+		DD29EAAE1FE2A1ED99B5E31B21220A5C /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = Sources/SwiftUIFontIcon/FontCodes/MaterialIcon.swift; sourceTree = "<group>"; };
+		E602B80AECF796E86E967E117E0D780A /* FontLoader.pod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.pod.swift; path = Sources/SwiftUIFontIcon/Helpers/FontLoader.pod.swift; sourceTree = "<group>"; };
+		ECA90608738A98B6855B2667FB969397 /* Pods-Expensy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Expensy.debug.xcconfig"; sourceTree = "<group>"; };
+		F2372919E15DE02DB6B714BF06B38171 /* FontAwesome5Free-Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "FontAwesome5Free-Solid.ttf"; path = "Sources/SwiftUIFontIcon/Resources/FontAwesome5Free-Solid.ttf"; sourceTree = "<group>"; };
+		F437FD26376613AF1A3E2829AF246707 /* Pods-Expensy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Expensy-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CB23C594A312065F8F00435A465C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629781E136E3DB94EAFD9D86E86CFAE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0788D66D8AF0F6E35377D2F2FB5DDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DA2C6C5A11250E1B802714EC8ACA37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112E32B7877449F6B7F56945FA4A8D7D /* Pods-Expensy */ = {
+			isa = PBXGroup;
+			children = (
+				32A0410BE5470F6C101EDEFFF6905A07 /* Pods-Expensy.modulemap */,
+				099BBFFF0C21160BED7F8728E208553C /* Pods-Expensy-acknowledgements.markdown */,
+				A4CED2E464897427EDEAE01919392278 /* Pods-Expensy-acknowledgements.plist */,
+				C65B96A9A672A21ED8E295A94F7A86FE /* Pods-Expensy-dummy.m */,
+				07AD5496BAC7CE4624F9F3440834C1BF /* Pods-Expensy-frameworks.sh */,
+				F437FD26376613AF1A3E2829AF246707 /* Pods-Expensy-Info.plist */,
+				A3C5B3A48CC80C35CCC1D513A258DF3C /* Pods-Expensy-umbrella.h */,
+				ECA90608738A98B6855B2667FB969397 /* Pods-Expensy.debug.xcconfig */,
+				71222D27DB9C5ABDA802711D8CBEDCB7 /* Pods-Expensy.release.xcconfig */,
+			);
+			name = "Pods-Expensy";
+			path = "Target Support Files/Pods-Expensy";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		665B01ED5204586B2D3A4128C7D346F5 /* SwiftUIFontIcon */ = {
+			isa = PBXGroup;
+			children = (
+				99C576DC1AD1BF74C8A0CF90F838A886 /* FontAwesome.swift */,
+				5BDC52C5A2B8AD7D3BB26F2C577FBDE1 /* FontIconView.swift */,
+				E602B80AECF796E86E967E117E0D780A /* FontLoader.pod.swift */,
+				DB2FFFF84EFF4B7193544649E10FACDD /* IonIcons.swift */,
+				DD29EAAE1FE2A1ED99B5E31B21220A5C /* MaterialIcon.swift */,
+				CE6FCBF92CC375C8B32003928DBE0A38 /* SwiftUIFontIcon.swift */,
+				F4E5F6CDB2ED9265E7F54A84CDE0D821 /* Resources */,
+				965C03B4FA31CE08200A15AD13A6D0E8 /* Support Files */,
+			);
+			name = SwiftUIFontIcon;
+			path = SwiftUIFontIcon;
+			sourceTree = "<group>";
+		};
+		965C03B4FA31CE08200A15AD13A6D0E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1052BBC59422FAB44886701652FCBB91 /* SwiftUIFontIcon.modulemap */,
+				9DA0867C2197B0C7B1624162F932D166 /* SwiftUIFontIcon-dummy.m */,
+				1B70349414F6082A1088325B0683847A /* SwiftUIFontIcon-Info.plist */,
+				2344C8506DF315873C36D342B576ED18 /* SwiftUIFontIcon-prefix.pch */,
+				8CA7BA8B6A03CC177208375601D62440 /* SwiftUIFontIcon-umbrella.h */,
+				98064CA1AC3FA0F1187104F20952694D /* SwiftUIFontIcon.debug.xcconfig */,
+				3DD6E406336DBD6DE024E5EB2C282DA0 /* SwiftUIFontIcon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftUIFontIcon";
+			sourceTree = "<group>";
+		};
+		C2E86C9D85B264F8B21196E8E5FDE1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE77D58C612245F71D9A26A28B8705D /* Pods-Expensy */,
+				65ED4D573A46200C9936C732B9D8FAEA /* SwiftUIFontIcon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FE80F4452776E687883023C0305464DC /* Pods */,
+				C2E86C9D85B264F8B21196E8E5FDE1AC /* Products */,
+				D863B03ADB30F8CE78A3856F4711FAE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D863B03ADB30F8CE78A3856F4711FAE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				112E32B7877449F6B7F56945FA4A8D7D /* Pods-Expensy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4E5F6CDB2ED9265E7F54A84CDE0D821 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2372919E15DE02DB6B714BF06B38171 /* FontAwesome5Free-Solid.ttf */,
+				1AE1B07C40D73BBE61689434C5249E79 /* Ionicons.ttf */,
+				35AFF022D934465847CE318BAB2C9B7D /* MaterialIcons-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE80F4452776E687883023C0305464DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				665B01ED5204586B2D3A4128C7D346F5 /* SwiftUIFontIcon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65AF75F51CC248F90C453E1A1D12B7C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6813670050ACC60B41472B85CEA79882 /* SwiftUIFontIcon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFD36EDCA60BD1473BACF6DFA03682F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7424EF6E56211739C8D155ADA7531789 /* Pods-Expensy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		461699BCEA51F63AD2788B1A69849D27 /* SwiftUIFontIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E002B859990D5E1D6639C95149175A94 /* Build configuration list for PBXNativeTarget "SwiftUIFontIcon" */;
+			buildPhases = (
+				65AF75F51CC248F90C453E1A1D12B7C4 /* Headers */,
+				090A03497BF4A815C49A5DD1BFF0AEDA /* Sources */,
+				A0788D66D8AF0F6E35377D2F2FB5DDB2 /* Frameworks */,
+				3E09D8BAA37C2C2BD25BAC99E7ADDE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIFontIcon;
+			productName = SwiftUIFontIcon;
+			productReference = 65ED4D573A46200C9936C732B9D8FAEA /* SwiftUIFontIcon */;
+			productType = "com.apple.product-type.framework";
+		};
+		52A5648D65928817F445CD06F2686868 /* Pods-Expensy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC78F04C9E747A8600CF1B766516AFE2 /* Build configuration list for PBXNativeTarget "Pods-Expensy" */;
+			buildPhases = (
+				ADFD36EDCA60BD1473BACF6DFA03682F /* Headers */,
+				8F07BF4E8D99EA02B026094A8CEE51D0 /* Sources */,
+				69CB23C594A312065F8F00435A465C09 /* Frameworks */,
+				2D7D8CEFFB93AF5DC73857503D7D4C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED3BFD0B4EC35008EF10E16BF1EC505 /* PBXTargetDependency */,
+			);
+			name = "Pods-Expensy";
+			productName = Pods_Expensy;
+			productReference = BCE77D58C612245F71D9A26A28B8705D /* Pods-Expensy */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C2E86C9D85B264F8B21196E8E5FDE1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A5648D65928817F445CD06F2686868 /* Pods-Expensy */,
+				461699BCEA51F63AD2788B1A69849D27 /* SwiftUIFontIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7D8CEFFB93AF5DC73857503D7D4C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E09D8BAA37C2C2BD25BAC99E7ADDE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEF5B65DCA8F7DD8A6AF647A8BCE622 /* FontAwesome5Free-Solid.ttf in Resources */,
+				0916BAC92588343049BD30AE6FD3AF93 /* Ionicons.ttf in Resources */,
+				AFD0A80E8631A063E47284494D89C838 /* MaterialIcons-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090A03497BF4A815C49A5DD1BFF0AEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C16A9F494DBB596A85E1120D346F484 /* FontAwesome.swift in Sources */,
+				A1F9B50AEFAF102108AD4A6B0DF4D764 /* FontIconView.swift in Sources */,
+				CBC798FB0C7BBD0D517B5BBC6BD6272F /* FontLoader.pod.swift in Sources */,
+				48E06590F28966DB83335CB66A5010CA /* IonIcons.swift in Sources */,
+				FF083B22870E07A2F19068A441CACA7D /* MaterialIcon.swift in Sources */,
+				61943E7AEE575D543ACCCEFD8124676A /* SwiftUIFontIcon.swift in Sources */,
+				1DFA0C5156D249E7D6EFDC043AA101BC /* SwiftUIFontIcon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F07BF4E8D99EA02B026094A8CEE51D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C7090DEFDCA5936D9DF6B8BFFE781C /* Pods-Expensy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ED3BFD0B4EC35008EF10E16BF1EC505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUIFontIcon;
+			target = 461699BCEA51F63AD2788B1A69849D27 /* SwiftUIFontIcon */;
+			targetProxy = 9B98DDFBDF91EC95F6E4D411DD364C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0B894FA5F0467DD05D47ACE8B2E720CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98064CA1AC3FA0F1187104F20952694D /* SwiftUIFontIcon.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUIFontIcon;
+				PRODUCT_NAME = SwiftUIFontIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9703D21C4EE5916391E8A7EF1DB30BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD6E406336DBD6DE024E5EB2C282DA0 /* SwiftUIFontIcon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftUIFontIcon/SwiftUIFontIcon.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUIFontIcon;
+				PRODUCT_NAME = SwiftUIFontIcon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCB858479F1244D6597F737004830EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA90608738A98B6855B2667FB969397 /* Pods-Expensy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Expensy/Pods-Expensy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Expensy/Pods-Expensy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6ABA469118137EBBD511687EE6094CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71222D27DB9C5ABDA802711D8CBEDCB7 /* Pods-Expensy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Expensy/Pods-Expensy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Expensy/Pods-Expensy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC78F04C9E747A8600CF1B766516AFE2 /* Build configuration list for PBXNativeTarget "Pods-Expensy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB858479F1244D6597F737004830EB7 /* Debug */,
+				F6ABA469118137EBBD511687EE6094CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E002B859990D5E1D6639C95149175A94 /* Build configuration list for PBXNativeTarget "SwiftUIFontIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B894FA5F0467DD05D47ACE8B2E720CD /* Debug */,
+				9703D21C4EE5916391E8A7EF1DB30BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
